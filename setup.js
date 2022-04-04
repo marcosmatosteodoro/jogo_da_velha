@@ -99,8 +99,8 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
     quadrado3.style.background = '#0f0';
 }
 
-function mudarvencedor(vencedor){
-    vencedor = vencedor.innerHTML
+function mudarvencedor(jogadorvencedor){
+    vencedor = jogadorvencedor.innerHTML
     vencedorSelecionado = vencedor
 }
 
