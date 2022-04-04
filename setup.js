@@ -101,7 +101,8 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
 
 function mudarvencedor(jogadorvencedor){
     vencedor = jogadorvencedor.innerHTML
-    vencedorSelecionado = vencedor
+    vencedorSelecionado.innerHTML = vencedor;
+
 }
 
 function checasequencia(quadrado1, quadrado2, quadrado3 ){
